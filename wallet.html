@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>User Dashboard | Stackly Crypto</title>
+
+    <link rel="icon"
+          type="image/webp"
+          href="images/logo.webp">
+
+    <link rel="stylesheet"
+          href="css/dashboard.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+
+<!-- Sidebar -->
+
+<aside class="sidebar">
+
+<div class="sidebar-header">
+    <a href="user-dashboard.html">
+
+        <img src="images/logo.webp" alt="Logo">
+
+          </a>
+  
+
+    </div>
+    <ul class="menu">
+
+<li>
+<a href="user-dashboard.html">
+<i class="fa-solid fa-chart-line"></i>
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="portfolio.html">
+<i class="fa-solid fa-wallet"></i>
+Portfolio
+</a>
+</li>
+
+<li>
+<a href="wallet.html">
+<i class="fa-solid fa-credit-card"></i>
+Wallet
+</a>
+</li>
+
+<li>
+<a href="market.html">
+<i class="fa-solid fa-coins"></i>
+Market
+</a>
+</li>
+
+<li>
+<a href="profile.html">
+<i class="fa-solid fa-user"></i>
+Profile
+</a>
+</li>
+
+<li>
+<a href="settings-user.html">
+<i class="fa-solid fa-gear"></i>
+Settings
+</a>
+</li>
+<a href="login.html" class="logout-btn">
+
+        <i class="fa-solid fa-right-from-bracket"></i>
+
+        Logout
+
+    </a>
+
+
+</ul>
+</aside>
+<main class="content">
+
+    <div class="page-header">
+
+        <h1>My Wallet</h1>
+
+        <button class="add-user-btn">
+            Add Funds
+        </button>
+
+    </div>
+
+    <!-- Wallet Summary -->
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Available Balance</h3>
+            <h2>$4,800</h2>
+        </div>
+
+        <div class="card">
+            <h3>Total Deposits</h3>
+            <h2>$15,250</h2>
+        </div>
+
+        <div class="card">
+            <h3>Total Withdrawals</h3>
+            <h2>$8,450</h2>
+        </div>
+
+        <div class="card">
+            <h3>Pending Amount</h3>
+            <h2>$1,250</h2>
+        </div>
+
+    </div>
+
+    <!-- Deposit & Withdraw -->
+
+    <div class="wallet-grid">
+
+        <div class="wallet-card">
+
+            <h2>Deposit Funds</h2>
+
+            <input type="number" placeholder="Enter Amount">
+
+            <button class="wallet-btn">
+                Deposit
+            </button>
+
+        </div>
+
+        <div class="wallet-card">
+
+            <h2>Withdraw Funds</h2>
+
+            <input type="number" placeholder="Enter Amount">
+
+            <button class="wallet-btn withdraw-btn">
+                Withdraw
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Linked Accounts -->
+
+    <div class="dashboard-table">
+
+        <h2>Linked Bank Accounts</h2>
+
+        <table>
+
+            <tr>
+                <th>Bank Name</th>
+                <th>Account Number</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>HDFC Bank</td>
+                <td>XXXX5678</td>
+                <td>Verified</td>
+            </tr>
+
+            <tr>
+                <td>ICICI Bank</td>
+                <td>XXXX7821</td>
+                <td>Verified</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <!-- Wallet History -->
+
+    <div class="dashboard-table">
+
+        <h2>Wallet Transactions</h2>
+
+        <table>
+
+            <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Amount</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>#WL1001</td>
+                <td>Deposit</td>
+                <td>$1,500</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>#WL1002</td>
+                <td>Withdraw</td>
+                <td>$800</td>
+                <td>Pending</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</main>

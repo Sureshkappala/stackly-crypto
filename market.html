@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>User Dashboard | Stackly Crypto</title>
+
+    <link rel="icon"
+          type="image/webp"
+          href="images/logo.webp">
+
+    <link rel="stylesheet"
+          href="css/dashboard.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+
+<!-- Sidebar -->
+
+<aside class="sidebar">
+<div class="sidebar-header">
+    <a href="user-dashboard.html">
+
+        <img src="images/logo.webp" alt="Logo">
+
+          </a>
+  
+
+    </div>
+    <ul class="menu">
+
+<li>
+<a href="user-dashboard.html">
+<i class="fa-solid fa-chart-line"></i>
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="portfolio.html">
+<i class="fa-solid fa-wallet"></i>
+Portfolio
+</a>
+</li>
+
+<li>
+<a href="wallet.html">
+<i class="fa-solid fa-credit-card"></i>
+Wallet
+</a>
+</li>
+
+<li>
+<a href="market.html">
+<i class="fa-solid fa-coins"></i>
+Market
+</a>
+</li>
+
+<li>
+<a href="profile.html">
+<i class="fa-solid fa-user"></i>
+Profile
+</a>
+</li>
+
+<li>
+<a href="settings-user.html">
+<i class="fa-solid fa-gear"></i>
+Settings
+</a>
+</li>
+<a href="login.html" class="logout-btn">
+
+        <i class="fa-solid fa-right-from-bracket"></i>
+
+        Logout
+
+    </a>
+
+
+</ul>
+</aside>
+<main class="content">
+
+    <div class="page-header">
+
+        <h1>Crypto Market</h1>
+
+        <button class="add-user-btn">
+            Refresh Market
+        </button>
+
+    </div>
+
+    <!-- Market Summary -->
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Market Cap</h3>
+            <h2>$3.2T</h2>
+        </div>
+
+        <div class="card">
+            <h3>24H Volume</h3>
+            <h2>$125B</h2>
+        </div>
+
+        <div class="card">
+            <h3>BTC Dominance</h3>
+            <h2>52%</h2>
+        </div>
+
+        <div class="card">
+            <h3>Fear & Greed</h3>
+            <h2>78</h2>
+        </div>
+
+    </div>
+
+    <!-- Trending Coins -->
+
+    <div class="crypto-section">
+
+        <h2>Trending Coins</h2>
+
+        <div class="crypto-grid">
+
+            <div class="crypto-card">
+                <h3>Bitcoin</h3>
+                <p>$108,450</p>
+                <span>+5.8%</span>
+            </div>
+
+            <div class="crypto-card">
+                <h3>Ethereum</h3>
+                <p>$6,200</p>
+                <span>+3.2%</span>
+            </div>
+
+            <div class="crypto-card">
+                <h3>Solana</h3>
+                <p>$420</p>
+                <span>+7.1%</span>
+            </div>
+
+            <div class="crypto-card">
+                <h3>BNB</h3>
+                <p>$920</p>
+                <span>+4.4%</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Market Table -->
+
+    <div class="dashboard-table">
+
+        <h2>Top Cryptocurrencies</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Coin</th>
+                    <th>Price</th>
+                    <th>24H Change</th>
+                    <th>Market Cap</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Bitcoin</td>
+                    <td>$108,450</td>
+                    <td style="color:#22c55e;">+5.8%</td>
+                    <td>$2.1T</td>
+                </tr>
+
+                <tr>
+                    <td>Ethereum</td>
+                    <td>$6,200</td>
+                    <td style="color:#22c55e;">+3.2%</td>
+                    <td>$740B</td>
+                </tr>
+
+                <tr>
+                    <td>Solana</td>
+                    <td>$420</td>
+                    <td style="color:#22c55e;">+7.1%</td>
+                    <td>$180B</td>
+                </tr>
+
+                <tr>
+                    <td>BNB</td>
+                    <td>$920</td>
+                    <td style="color:#22c55e;">+4.4%</td>
+                    <td>$140B</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- Market News -->
+
+    <div class="dashboard-table">
+
+        <h2>Latest Market News</h2>
+
+        <table>
+
+            <tr>
+                <th>Headline</th>
+                <th>Date</th>
+            </tr>
+
+            <tr>
+                <td>Bitcoin reaches new all-time high.</td>
+                <td>23 Jun 2026</td>
+            </tr>
+
+            <tr>
+                <td>Ethereum ETF attracts record inflows.</td>
+                <td>23 Jun 2026</td>
+            </tr>
+
+            <tr>
+                <td>Solana network activity surges.</td>
+                <td>22 Jun 2026</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</main>

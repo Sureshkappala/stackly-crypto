@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Stackly Crypto</title>
+
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+
+<!-- Sidebar -->
+
+<aside class="sidebar">
+
+    <div class="sidebar-header">
+    <a href="admin-dashboard.html">
+
+        <img src="images/logo.webp" alt="Logo">
+
+          </a>
+  
+
+    </div>
+
+<ul class="menu">
+
+<li>
+<a href="admin-dashboard.html">
+<i class="fa-solid fa-chart-line"></i>
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="users.html">
+<i class="fa-solid fa-users"></i>
+Users
+</a>
+</li>
+
+<li>
+<a href="transactions.html">
+<i class="fa-solid fa-money-bill-transfer"></i>
+Transactions
+</a>
+</li>
+
+<li>
+<a href="reports.html">
+<i class="fa-solid fa-file-lines"></i>
+Reports
+</a>
+</li>
+
+<li>
+<a href="settings.html">
+<i class="fa-solid fa-gear"></i>
+Settings
+</a>
+</li>
+
+</ul>
+
+    <a href="login.html" class="logout-btn">
+
+        <i class="fa-solid fa-right-from-bracket"></i>
+
+        Logout
+
+    </a>
+
+</aside>
+<main class="content">
+
+    <div class="page-header">
+
+        <h1>Transactions</h1>
+
+        <button class="add-user-btn">
+            Export Report
+        </button>
+
+    </div>
+
+    <!-- Summary Cards -->
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Transactions</h3>
+            <h2>84,250</h2>
+        </div>
+
+        <div class="card">
+            <h3>Today's Transactions</h3>
+            <h2>1,250</h2>
+        </div>
+
+        <div class="card">
+            <h3>Total Revenue</h3>
+            <h2>$1.2M</h2>
+        </div>
+
+        <div class="card">
+            <h3>Pending Payments</h3>
+            <h2>245</h2>
+        </div>
+
+    </div>
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+        <input type="text"
+               placeholder="Search transaction ID...">
+
+    </div>
+
+    <!-- Transactions Table -->
+
+    <div class="dashboard-table">
+
+        <h2>Recent Transactions</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Transaction ID</th>
+                    <th>User</th>
+                    <th>Amount</th>
+                    <th>Crypto</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>#TRX1001</td>
+                    <td>John Smith</td>
+                    <td>$2,500</td>
+                    <td>Bitcoin</td>
+                    <td>22-Jun-2026</td>
+                    <td>
+                        <span class="status completed">
+                            Completed
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>#TRX1002</td>
+                    <td>Emma Wilson</td>
+                    <td>$1,800</td>
+                    <td>Ethereum</td>
+                    <td>22-Jun-2026</td>
+                    <td>
+                        <span class="status pending">
+                            Pending
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>#TRX1003</td>
+                    <td>David Miller</td>
+                    <td>$4,200</td>
+                    <td>Solana</td>
+                    <td>21-Jun-2026</td>
+                    <td>
+                        <span class="status completed">
+                            Completed
+                        </span>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- Recent Activity -->
+
+    <div class="dashboard-table">
+
+        <h2>Transaction Activity</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Activity</th>
+                    <th>User</th>
+                    <th>Time</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Bitcoin Purchase</td>
+                    <td>John Smith</td>
+                    <td>10:45 AM</td>
+                </tr>
+
+                <tr>
+                    <td>Ethereum Withdrawal</td>
+                    <td>Emma Wilson</td>
+                    <td>11:30 AM</td>
+                </tr>
+
+                <tr>
+                    <td>Wallet Deposit</td>
+                    <td>David Miller</td>
+                    <td>01:15 PM</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</main>

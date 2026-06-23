@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Stackly Crypto</title>
+
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+
+<!-- Sidebar -->
+
+<aside class="sidebar">
+
+   <div class="sidebar-header">
+    <a href="admin-dashboard.html">
+
+        <img src="images/logo.webp" alt="Logo">
+
+          </a>
+  
+
+    </div>
+
+<ul class="menu">
+
+<li>
+<a href="admin-dashboard.html">
+<i class="fa-solid fa-chart-line"></i>
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="users.html">
+<i class="fa-solid fa-users"></i>
+Users
+</a>
+</li>
+
+<li>
+<a href="transactions.html">
+<i class="fa-solid fa-money-bill-transfer"></i>
+Transactions
+</a>
+</li>
+
+<li>
+<a href="reports.html">
+<i class="fa-solid fa-file-lines"></i>
+Reports
+</a>
+</li>
+
+<li>
+<a href="settings.html">
+<i class="fa-solid fa-gear"></i>
+Settings
+</a>
+</li>
+
+</ul>
+
+    <a href="login.html" class="logout-btn">
+
+        <i class="fa-solid fa-right-from-bracket"></i>
+
+        Logout
+
+    </a>
+
+</aside>
+<main class="content">
+
+    <div class="page-header">
+
+        <h1>Users Management</h1>
+
+        <button class="add-user-btn">
+            + Add New User
+        </button>
+
+    </div>
+
+    <!-- Summary Cards -->
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Users</h3>
+            <h2>12,580</h2>
+        </div>
+
+        <div class="card">
+            <h3>Active Users</h3>
+            <h2>8,520</h2>
+        </div>
+
+        <div class="card">
+            <h3>New Users</h3>
+            <h2>1,240</h2>
+        </div>
+
+        <div class="card">
+            <h3>Blocked Users</h3>
+            <h2>124</h2>
+        </div>
+
+    </div>
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+        <input type="text"
+               placeholder="Search users...">
+
+    </div>
+
+    <!-- Users Table -->
+
+    <div class="dashboard-table">
+
+        <h2>All Users</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>#1001</td>
+                    <td>John Smith</td>
+                    <td>john@gmail.com</td>
+                    <td>9876543210</td>
+                    <td>User</td>
+                    <td>
+                        <span class="status completed">
+                            Active
+                        </span>
+                    </td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>#1002</td>
+                    <td>Emma Wilson</td>
+                    <td>emma@gmail.com</td>
+                    <td>9123456789</td>
+                    <td>User</td>
+                    <td>
+                        <span class="status pending">
+                            Pending
+                        </span>
+                    </td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>#1003</td>
+                    <td>David Miller</td>
+                    <td>david@gmail.com</td>
+                    <td>9988776655</td>
+                    <td>Admin</td>
+                    <td>
+                        <span class="status completed">
+                            Active
+                        </span>
+                    </td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</main>

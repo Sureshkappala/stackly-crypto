@@ -41,7 +41,7 @@
 
 <aside class="sidebar">
 
-    <div class="sidebar-header">
+   <div class="sidebar-header">
     <a href="user-dashboard.html">
 
         <img src="images/logo.webp" alt="Logo">
@@ -104,135 +104,95 @@ Settings
 
 </ul>
 </aside>
-
-
 <main class="content">
+<div class="page-header">
 
-<div class="welcome-banner">
+    <h1>My Portfolio</h1>
 
-    <div class="welcome-content">
-
-        <h1>Welcome Back, Investor 👋</h1>
-
-        <p>
-            Track your portfolio, monitor investments,
-            and manage your crypto assets from one place.
-        </p>
-
-    </div>
+    <button class="add-user-btn">
+        Download Portfolio
+    </button>
 
 </div>
 
-<!-- Portfolio Cards -->
+<!-- Portfolio Summary -->
 
 <div class="cards">
 
     <div class="card">
+        <h3>Total Investment</h3>
+        <h2>$18,500</h2>
+    </div>
 
-        <h3>Total Portfolio</h3>
-
+    <div class="card">
+        <h3>Current Value</h3>
         <h2>$25,450</h2>
-
     </div>
 
     <div class="card">
-
         <h3>Total Profit</h3>
-
-        <h2>$8,250</h2>
-
+        <h2>$6,950</h2>
     </div>
 
     <div class="card">
-
-        <h3>Investments</h3>
-
-        <h2>12 Assets</h2>
-
-    </div>
-
-    <div class="card">
-
-        <h3>Wallet Balance</h3>
-
-        <h2>$4,800</h2>
-
+        <h3>Profit %</h3>
+        <h2>+37%</h2>
     </div>
 
 </div>
 
-<!-- Holdings -->
+<!-- Portfolio Holdings -->
 
 <div class="crypto-section">
 
-    <h2>My Holdings</h2>
+    <h2>Portfolio Holdings</h2>
 
     <div class="crypto-grid">
 
         <div class="crypto-card">
-
             <h3>Bitcoin</h3>
-
             <p>$10,500</p>
-
-            <span>+5.2%</span>
-
+            <span>45% Allocation</span>
         </div>
 
         <div class="crypto-card">
-
             <h3>Ethereum</h3>
-
             <p>$7,800</p>
-
-            <span>+3.8%</span>
-
+            <span>30% Allocation</span>
         </div>
 
         <div class="crypto-card">
-
             <h3>Solana</h3>
-
             <p>$4,200</p>
-
-            <span>+7.1%</span>
-
+            <span>15% Allocation</span>
         </div>
 
         <div class="crypto-card">
-
             <h3>BNB</h3>
-
             <p>$2,950</p>
-
-            <span>+4.4%</span>
-
+            <span>10% Allocation</span>
         </div>
 
     </div>
 
 </div>
 
-<!-- Recent Transactions -->
+<!-- Portfolio Table -->
 
 <div class="dashboard-table">
 
-    <h2>Recent Transactions</h2>
+    <h2>Asset Details</h2>
 
     <table>
 
         <thead>
 
             <tr>
-
-                <th>ID</th>
-
                 <th>Asset</th>
-
-                <th>Amount</th>
-
-                <th>Status</th>
-
+                <th>Quantity</th>
+                <th>Purchase Price</th>
+                <th>Current Price</th>
+                <th>Profit/Loss</th>
             </tr>
 
         </thead>
@@ -240,35 +200,27 @@ Settings
         <tbody>
 
             <tr>
-
-                <td>#TX1001</td>
-
                 <td>Bitcoin</td>
-
-                <td>$2,500</td>
-
-                <td>
-                    <span class="status completed">
-                        Completed
-                    </span>
-                </td>
-
+                <td>0.25 BTC</td>
+                <td>$90,000</td>
+                <td>$108,450</td>
+                <td style="color:#22c55e;">+$4,500</td>
             </tr>
 
             <tr>
-
-                <td>#TX1002</td>
-
                 <td>Ethereum</td>
+                <td>1.5 ETH</td>
+                <td>$5,200</td>
+                <td>$6,200</td>
+                <td style="color:#22c55e;">+$1,500</td>
+            </tr>
 
-                <td>$1,800</td>
-
-                <td>
-                    <span class="status pending">
-                        Pending
-                    </span>
-                </td>
-
+            <tr>
+                <td>Solana</td>
+                <td>10 SOL</td>
+                <td>$350</td>
+                <td>$420</td>
+                <td style="color:#22c55e;">+$700</td>
             </tr>
 
         </tbody>
@@ -277,40 +229,26 @@ Settings
 
 </div>
 
-<!-- Profile -->
+<!-- Investment Goals -->
 
 <div class="settings-card">
 
-    <h2>Profile Information</h2>
+    <h2>Investment Goals</h2>
 
     <div class="form-group">
 
-        <label>Full Name</label>
+        <label>Target Portfolio Value</label>
 
-        <input type="text"
-               value="John Smith">
+        <input type="text" value="$50,000">
 
     </div>
 
     <div class="form-group">
 
-        <label>Email</label>
+        <label>Monthly Investment</label>
 
-        <input type="email"
-               value="john@gmail.com">
-
-    </div>
-
-    <div class="form-group">
-
-        <label>Mobile</label>
-
-        <input type="text"
-               value="9876543210">
+        <input type="text" value="$1,000">
 
     </div>
-
-</div>
-
-
 </main>
+</div>
