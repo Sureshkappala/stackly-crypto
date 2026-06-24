@@ -1954,3 +1954,99 @@ color:#fff;
     }
 
 }
+@media(max-width:768px){
+
+    .remember-forgot{
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .remember-forgot label{
+        font-size:14px;
+    }
+
+    .remember-forgot a{
+        font-size:14px;
+        white-space:nowrap;
+    }
+
+}
+@media (max-width:768px){
+
+    .login-options{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        width:100%;
+    }
+
+    .login-options label{
+        display:flex;
+        align-items:center;
+        gap:4px;
+        font-size:11px;
+        white-space:nowrap;
+    }
+
+    .forgot-link{
+        font-size:11px;
+        white-space:nowrap;
+    }
+
+}
+@media(max-width:768px){
+
+    .remember-me{
+        display:flex;
+        align-items:center;
+        gap:4px;
+        white-space:nowrap;
+    }
+
+    .remember-me label{
+        font-size:11px;
+    }
+
+}
+.login-options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.welcome-card{
+    padding:20px;
+    min-height:140px;
+    border-radius:15px;
+}
+
+.welcome-card h2{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.welcome-card p{
+    font-size:14px;
+    line-height:1.5;
+}
+.welcome-card h2{
+    font-size:20px;
+}
+
+.welcome-card p{
+    font-size:12px;
+}
+.welcome-banner{
+    padding:20px 30px !important;
+    min-height:120px !important;
+}
+
+.welcome-banner h1{
+    font-size:28px !important;
+    margin-bottom:10px !important;
+}
+
+.welcome-banner p{
+    font-size:16px !important;
+    line-height:1.5 !important;
+}

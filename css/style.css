@@ -3025,4 +3025,77 @@ body.menu-open{
 .remember-me label{
     cursor:pointer;
 }
+@media (max-width:768px){
+
+    .login-options{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .remember-me{
+        display:flex;
+        align-items:center;
+        gap:4px;
+        white-space:nowrap;
+    }
+
+    .remember-me label{
+        font-size:10px;
+        white-space:nowrap;
+    }
+
+    .forgot-password{
+        font-size:10px;
+        white-space:nowrap;
+    }
+}
+.remember-me{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.remember-me input[type="checkbox"]{
+    margin:0;
+    width:16px;
+    height:16px;
+}
+
+.remember-me label{
+    margin:0;
+    line-height:1;
+}
+@media(max-width:768px){
+
+    .remember-me{
+        display:flex;
+        align-items:center;
+        gap:6px;
+    }
+
+    .remember-me input[type="checkbox"]{
+        width:14px;
+        height:14px;
+    }
+
+    .remember-me label{
+        font-size:14px;
+        line-height:1;
+    }
+}
+@media(max-width:768px){
+
+    .forgot-password{
+        margin-left:25px;
+    }
+
+}
+.welcome-card h2{
+    font-size:20px;
+}
+
+.welcome-card p{
+    font-size:12px;
+}
 
