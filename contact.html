@@ -33,7 +33,9 @@
 
         <nav class="navbar">
 
-             
+             <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
 
                         <ul class="nav-links" id="navLinks">
 
@@ -56,6 +58,14 @@
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
+                <li class="mobile-only">
+        <a href="register.html">Get Started</a>
+    </li>
+
+    <li class="mobile-only">
+        <a href="login.html">Login</a>
+    </li>
+                
 
             </ul>
 
@@ -73,9 +83,7 @@
 
         </div>
 
-        <div class="menu-toggle">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+        
 
     </header>
     <section class="contact-hero">
@@ -105,33 +113,29 @@
 
         <form>
 
-            <input
-                type="text"
-                placeholder="Your Name"
-                required>
+        <input type="text"
+       id="name"
+       placeholder="Enter Your Name"
+       required>
 
-            <input
-                type="email"
-                placeholder="Your Email"
-                required>
+<input type="email"
+       id="email"
+       placeholder="Enter Your Email"
+       required>
 
-            <input
-                type="tel"
-                placeholder="Mobile Number"
-                maxlength="10"
-                pattern="[0-9]{10}"
-                required>
+<input type="tel"
+       id="phone"
+       placeholder="Enter Mobile Number"
+       required>
 
-            <input
-                type="text"
-                placeholder="Subject"
-                required>
+<input type="text"
+       id="subject"
+       placeholder="Subject"
+       required>
 
-            <textarea
-                rows="6"
-                placeholder="Your Message"
-                required>
-            </textarea>
+<textarea id="message"
+          placeholder="Type Your Message Here"
+          required></textarea>
 
             <button type="submit">
                 Send Message
@@ -341,3 +345,4 @@
     </div>
 
 </footer>
+<script src="js/main.js"></script>

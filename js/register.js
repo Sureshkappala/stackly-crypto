@@ -49,25 +49,23 @@ toggleConfirm.addEventListener("click", ()=>{
 
 });
 
+
 // Submit
 
-document
-.getElementById("registerForm")
-.addEventListener("submit", function(e){
+const form = document.querySelector("form");
 
-    e.preventDefault();
+form.addEventListener("submit", function(e){
 
-    window.location.href = "login.html";
+    const password = document.getElementById("password").value;
+    const confirmPassword = document.getElementById("confirmPassword").value;
 
-});
-document
-.getElementById("registerForm")
-.addEventListener("submit", function(e){
+    if(password !== confirmPassword){
 
-    e.preventDefault();
+        alert("Passwords do not match");
 
-    alert("Account Created Successfully!");
+        e.preventDefault();
+        return;
+    }
 
-    window.location.href = "login.html";
-
+    alert("Account Created Successfully");
 });
