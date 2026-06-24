@@ -1890,8 +1890,8 @@ color:#fff;
 @media (max-width:768px){
 
     .sidebar{
-        width:140px;
-        min-width:140px;
+        width:120px;
+        min-width:120px;
     }
 
     .main-content{
@@ -1924,6 +1924,33 @@ color:#fff;
 
     .stat-card h2{
         font-size:28px;
+    }
+
+}
+@media(max-width:768px){
+
+    .sidebar .menu li{
+        margin:18px 0;
+    }
+
+    .sidebar .menu li a{
+        font-size:16px;
+        font-weight:600;
+        padding:12px 10px;
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .sidebar .menu li a i{
+        font-size:18px;
+    }
+
+}
+@media(max-width:768px){
+
+    .welcome-content h1{
+        font-size:22px;
     }
 
 }
