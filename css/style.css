@@ -3412,7 +3412,7 @@ section {
     padding:40px 8%;
 }
 .team{
-    padding:40px 8%;
+    padding:20px 8%;
 }
 .services-hero{
     padding:120px 8% 40px;
@@ -3464,4 +3464,53 @@ section {
 .faq{
     padding-top:30px;
     margin-top:20px;
+}
+.about-hero{
+    padding:120px 8% 20px;
+    text-align:center;
+}
+.about-hero{
+    padding:80px 20px 60px;
+}
+.our-story{
+    padding:40px 8% 100px;
+    display:flex;
+    gap:60px;
+    align-items:center;
+}
+.our-story{
+    padding:0px 8% 10px;
+}
+.our-story{
+    padding-top:0;
+}
+.our-story{
+    margin-top:-120px;
+    padding:40px 8% 100px;
+    display:flex;
+    gap:60px;
+    align-items:center;
+}
+.our-story{
+    padding:40px 8% 30px;   /* bottom padding reduced */
+}
+
+.vision-mission{
+    padding:30px 8% 60px;   /* top padding reduced */
+}
+.services-hero{
+    padding: 60px 20px 80px;
+}
+.blog-hero{
+    padding-top:60px;
+}
+.services-hero{
+    padding-bottom:0;
+}
+
+.trading-services{
+    padding: top 20px;;
+}
+.contact-hero{
+    padding-top:60px;
 }
