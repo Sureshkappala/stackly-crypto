@@ -1037,7 +1037,7 @@ body{
 
 }
 .about-hero{
-    padding:180px 8% 100px;
+    padding:120px 8% 40px;
     text-align:center;
 }
 
@@ -1047,7 +1047,7 @@ body{
 }
 
 .our-story{
-    padding:100px 8%;
+    padding:40px 8%;
     display:flex;
     gap:60px;
     align-items:center;
@@ -3361,4 +3361,107 @@ section {
         height:300px;
     }
 
+}
+.about-hero{
+    padding-bottom: 40px;
+}
+
+.about-content{
+    padding-top: 40px;
+}
+.our-story{
+    padding-top: 20px;
+}
+/* About Hero */
+.about-hero{
+    padding-bottom:30px;
+    margin-bottom:20px;
+}
+
+/* Our Story */
+.our-story{
+    padding-top:10px;
+    margin-top:20px;
+}
+.about-hero{
+    padding-bottom:20px;
+}
+
+.our-story{
+    padding-top:20px;
+    margin-top:10px;
+}
+.about-hero{
+    height:auto;
+    min-height:60vh;
+}
+.our-story{
+    padding-top:0px;      /* Same as Home page */
+}
+.section{
+    padding: 60px 0;
+}
+.about-hero{
+    padding:110px 8% 30px;
+}
+
+.our-story{
+    padding:30px 8%;
+}
+.our-team{
+    padding:40px 8%;
+}
+.team{
+    padding:40px 8%;
+}
+.services-hero{
+    padding:120px 8% 40px;
+}
+.service-features{
+    padding:40px 8%;
+}
+.platform-features{
+    padding:40px 8%;
+}
+/* Platform Features */
+.platform-features{
+    padding-bottom:30px;
+    margin-bottom:20px;
+}
+
+/* Pricing */
+.pricing{
+    padding-top:30px;
+    padding-bottom:40px;
+    margin-top:20px;
+}
+.blog-hero{
+    padding:120px 8% 40px;
+}
+/* Blog Hero */
+.blog-hero{
+    padding-bottom:30px;
+    margin-bottom:20px;
+}
+
+/* Latest News */
+.latest-news{
+    padding-top:30px;
+    padding-bottom:40px;
+    margin-top:20px;
+}
+/* Contact Hero */
+.contact-hero{
+    padding:120px 8% 40px;
+}
+/* Our Offices */
+.our-offices{
+    padding-bottom:30px;
+    margin-bottom:20px;
+}
+
+/* FAQ */
+.faq{
+    padding-top:30px;
+    margin-top:20px;
 }

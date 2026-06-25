@@ -116,20 +116,29 @@
 
         <form>
 
-        <input type="text"
-       id="name"
-       placeholder="Enter Your Name"
-       required>
+        <input
+    type="text"
+    id="name"
+    name="name"
+    oninput="this.value=this.value.replace(/[^A-Za-z ]/g,'')"
+        placeholder="Enter your name"
+
+    required
+>
 
 <input type="email"
        id="email"
        placeholder="Enter Your Email"
        required>
 
-<input type="tel"
-       id="phone"
-       placeholder="Enter Mobile Number"
-       required>
+<input
+    type="tel"
+    id="phone"
+    name="phone"
+    placeholder="Enter Mobile Number"
+    maxlength="10"
+    oninput="this.value=this.value.replace(/[^0-9]/g,'').slice(0,10)"
+    required>
 
 <input type="text"
        id="subject"
