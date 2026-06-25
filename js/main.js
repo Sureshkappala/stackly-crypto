@@ -54,24 +54,26 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 });
 const contactForm = document.querySelector(".contact-form");
 
-contactForm.addEventListener("submit", function(e){
+if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
 
-    const name = document.getElementById("name").value;
-    const phone = document.getElementById("phone").value;
+        const name = document.getElementById("name").value;
+        const phone = document.getElementById("phone").value;
 
-    const nameRegex = /^[A-Za-z ]+$/;
-    const phoneRegex = /^[0-9]{10}$/;
+        const nameRegex = /^[A-Za-z ]+$/;
+        const phoneRegex = /^[0-9]{10}$/;
 
-    if(!nameRegex.test(name)){
-        alert("Name should contain only letters");
-        e.preventDefault();
-        return;
-    }
+        if (!nameRegex.test(name)) {
+            alert("Name should contain only letters");
+            e.preventDefault();
+            return;
+        }
 
-    if(!phoneRegex.test(phone)){
-        alert("Enter valid 10 digit mobile number");
-        e.preventDefault();
-        return;
-    }
+        if (!phoneRegex.test(phone)) {
+            alert("Phone number should contain exactly 10 digits");
+            e.preventDefault();
+            return;
+        }
 
-});
+    });
+}
